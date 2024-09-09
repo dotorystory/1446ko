@@ -134,8 +134,8 @@ document.addEventListener('DOMContentLoaded', function() {
             <span style="font-size: 1em;">한국어</span>
           </a>
           <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-            <li><a class="dropdown-item" href="https://ko.1446.kr">한국어</a></li>
-            <li><a class="dropdown-item" href="https://en.1446.kr">English</a></li>
+            <li><a class="dropdown-item" href="?lang=ja">한국어</a></li>
+            <li><a class="dropdown-item" href="https://google.com">English</a></li>
             <li><a class="dropdown-item" href="?lang=ja">日本語</a></li>
             <!-- <li><a class="dropdown-item" href="?lang=ko">한국어</a></li>
             <li><a class="dropdown-item" href="?lang=en">English</a></li>
