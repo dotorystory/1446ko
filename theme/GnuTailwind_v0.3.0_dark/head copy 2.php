@@ -65,43 +65,6 @@ document.addEventListener('DOMContentLoaded', function() {
   var dropdown = document.querySelector('.language-selector .dropdown-toggle');
   var dropdownMenu = document.querySelector('.language-selector .dropdown-menu');
   
-  // Geolocation API를 호출하여 국가 코드를 얻는 함수
-  function fetchCountryCode() {
-    return fetch('https://ipapi.co/json/')
-      .then(response => response.json())
-      .then(data => data.country_code)
-      .catch(error => {
-        console.error('Error fetching geolocation data:', error);
-        return 'EN'; // 오류 시 기본값을 영어로 설정
-      });
-  }
-
-  // 국가에 따른 언어를 설정하는 함수
-  function setLanguageBasedOnCountry(countryCode) {
-    let language;
-    switch (countryCode) {
-      case 'KR': // 한국
-        language = 'ko';
-        break;
-      case 'JP': // 일본
-        language = 'ja';
-        break;
-      default: // 그 외
-        language = 'en';
-    }
-
-    // 해당 언어로 자동 선택 및 표시
-    var languageOption = document.querySelector(`.dropdown-menu a[href="?lang=${language}"]`);
-    if (languageOption) {
-      languageOption.classList.add('active'); // 선택된 옵션 강조
-      dropdown.innerHTML = languageOption.innerHTML; // 선택된 언어 표시
-    }
-  }
-
-  // 사용자의 국가를 감지하여 언어를 설정
-  fetchCountryCode().then(setLanguageBasedOnCountry);
-
-  //  언어선택 셀렉스박스
   dropdown.addEventListener('click', function(e) {
     e.preventDefault();
     e.stopPropagation();
@@ -134,12 +97,9 @@ document.addEventListener('DOMContentLoaded', function() {
             <span style="font-size: 1em;">한국어</span>
           </a>
           <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-            <li><a class="dropdown-item" href="https://ko.1446.kr">한국어</a></li>
-            <li><a class="dropdown-item" href="https://en.1446.kr">English</a></li>
-            <li><a class="dropdown-item" href="?lang=ja">日本語</a></li>
-            <!-- <li><a class="dropdown-item" href="?lang=ko">한국어</a></li>
+            <li><a class="dropdown-item" href="?lang=ko">한국어</a></li>
             <li><a class="dropdown-item" href="?lang=en">English</a></li>
-            <li><a class="dropdown-item" href="?lang=ja">日本語</a></li> -->
+            <li><a class="dropdown-item" href="?lang=ja">日本語</a></li>
           </ul>
         </div>
       </div>
