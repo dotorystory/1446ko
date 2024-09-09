@@ -59,6 +59,8 @@ header("Pragma: no-cache"); // HTTP/1.0
 
   <link href="<?php echo G5_THEME_URL ?>/assets/theme.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap">
+
 
   <!--[if lte IE 8]>
 <script src="<?php echo G5_JS_URL ?>/html5.js"></script>

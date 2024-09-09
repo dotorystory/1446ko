@@ -27,7 +27,7 @@ include_once(G5_LIB_PATH . '/popular.lib.php');
   ?>
 </div>
 
-<!-- CSS 수정 -->
+<!-- CSS 추가 -->
 <style>
   .language-selector {
     position: relative;
@@ -38,28 +38,26 @@ include_once(G5_LIB_PATH . '/popular.lib.php');
   .language-selector .dropdown-menu {
     display: none;
     position: absolute;
-    background-color: rgba(100, 100, 100, 0.8); /* 배경색에 투명도 적용 */
-    border-radius: 5px;
+    background-color: #f9f9f9;
     min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 999;
+    z-index: 1;
   }
   .language-selector .dropdown-menu a {
-    color: white;
+    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
   .language-selector .dropdown-menu a:hover {
-    border-radius: 5px;
-    background-color: #333;
+    background-color: #f1f1f1;
   }
-  .language-selector .show {
+  .language-selector:hover .dropdown-menu {
     display: block;
   }
 </style>
 
-<!-- JavaScript 수정 -->
+<!-- JavaScript 추가 -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   var dropdown = document.querySelector('.language-selector .dropdown-toggle');
@@ -67,14 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   dropdown.addEventListener('click', function(e) {
     e.preventDefault();
-    e.stopPropagation();
-    dropdownMenu.classList.toggle('show');
-  });
-
-  document.addEventListener('click', function(e) {
-    if (!dropdown.contains(e.target) && !dropdownMenu.contains(e.target)) {
-      dropdownMenu.classList.remove('show');
-    }
+    dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
   });
 });
 </script>
@@ -92,8 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="language-selector">
         <div class="dropdown">
           <a href="#" class="dropdown-toggle" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-            <!-- <i class="bi bi-globe"></i> 지구본 아이콘 사용 -->
-            <span style="font-size: 1em;">한국어</span>
+            <i class="bi bi-globe"></i> <!-- 지구본 아이콘 사용 -->
           </a>
           <ul class="dropdown-menu" aria-labelledby="languageDropdown">
             <li><a class="dropdown-item" href="?lang=ko">한국어</a></li>

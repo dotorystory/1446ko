@@ -364,7 +364,8 @@ body {
   margin: 0;
   padding: 0;
   font-size: 1rem;
-  font-family: "Apple SD Gothic Neo", "Malgun Gothic", dotum, sans-serif;
+  font-family: "Assistant";
+  /* font-family: "Apple SD Gothic Neo", "Malgun Gothic", dotum, sans-serif; */
   background: #fff;
   color: #333;
 }

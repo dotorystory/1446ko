@@ -18,8 +18,8 @@ include_once(G5_THEME_PATH . '/head.php');
     <div class="inline-flex items-center">
       <a href="https://tailwindcss.com/" target="_blank" class="uppercase text-base md:text-lg tracking-wide inline-block py-1.5 px-3 rounded-md transition transition-duration-500 bg-blue-500 hover:bg-blue-400">시작하기</a>
       <a href="#" class="inline-flex items-center">
-        <i class="bi bi-play-circle text-red-300 text-4xl transition transition-duration-300 leading-0 ml-8 hover:text-red-300"></i>
-        <span class="text-base transition transition-duration-500 ml-2.5 text-gray-200 font-semibold hover:text-red-300">영상 보기</span>
+        <i class="bi bi-play-circle text-blue-400 text-4xl transition transition-duration-300 leading-0 ml-8 hover:text-blue-500"></i>
+        <span class="text-base transition transition-duration-500 ml-2.5 text-gray-300 font-semibold hover:text-blue-500">영상 보기</span>
       </a>
     </div>
   </div>
