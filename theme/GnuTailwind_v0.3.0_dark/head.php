@@ -38,7 +38,7 @@ include_once(G5_LIB_PATH . '/popular.lib.php');
   .language-selector .dropdown-menu {
     display: none;
     position: absolute;
-    background-color: rgba(100, 100, 100, 0.8); /* 배경색에 투명도 적용 */
+    background-color: rgba(100, 100, 100, 0.9); /* 배경색에 투명도 적용 */
     border-radius: 5px;
     min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);

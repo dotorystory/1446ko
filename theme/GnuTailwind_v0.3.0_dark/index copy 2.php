@@ -8,7 +8,7 @@ include_once(G5_THEME_PATH . '/head.php');
 <h2 class="sr-only">메인 페이지</h2>
 </div>
 
-<!-- Container End -->
+<!-- 히어로 섹션 -->
 <section id="main-top" class="relative w-full flex items-center">
   <div class="container mx-auto sm: px-4 text-white relative" data-aos="zoom-out" data-aos-delay="100" data-aos-duration="1000">
     <h1 class="m-0 text-xl md:text-3xl font-extrabold leading-6 md:leading-8 ">세상 모든 중고기계·중고설비, 산업마켓 
@@ -16,15 +16,16 @@ include_once(G5_THEME_PATH . '/head.php');
     </h1>
     <h2 class="mt-2 mr-0 mb-10 ml-0 text-lg md:text-xl font-base mb-0 md:mb-4">다양한 산업용 중고제품, 산업마켓 어플에서 만나보세요.</h2>
     <div class="inline-flex items-center">
-      <a href="https://tailwindcss.com/" target="_blank" class="uppercase text-base md:text-lg tracking-wide inline-block py-1.5 px-3 rounded-md transition transition-duration-500 bg-blue-500 hover:bg-blue-400">시작하기</a>
-      <a href="#" class="inline-flex items-center">
-        <i class="bi bi-play-circle text-blue-400 text-4xl transition transition-duration-300 leading-0 ml-8 hover:text-blue-500"></i>
-        <span class="text-base transition transition-duration-500 ml-2.5 text-gray-300 font-semibold hover:text-blue-500">영상 보기</span>
+      <a href="#about" target="_blank" class="uppercase text-base md:text-lg tracking-wide inline-block py-1.5 px-3 rounded-md transition transition-duration-500 bg-blue-500 hover:bg-blue-400">시작하기</a>
+      <a href="https://youtu.be/WRHY64qsi5c?si=XZYyq-98OQVfA6b0" class="inline-flex items-center" target="_blank">
+        <i class="bi bi-play-circle text-blue-500 text-4xl transition transition-duration-300 leading-0 ml-8 hover:text-gray-300"></i>
+        <span class="text-base transition transition-duration-500 ml-2.5 text-gray-200 font-semibold hover:text-gray-300">영상 보기</span>
       </a>
     </div>
   </div>
 </section>
 
+<!-- 서비스 소개 섹션 --> 
 <section id="transactions">
   <div class="mt-8 mb-10 bg-white" data-aos="fade-up">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -32,10 +33,10 @@ include_once(G5_THEME_PATH . '/head.php');
         <h2 class="text-sm font-extrabold py-1 px-4 m-0 bg-blue-100 text-blue-500 inline-block uppercase rounded-xl">서비스 소개</h2>
       </div>
       <p class="mt-4 text-xl sm:text-2xl leading-8 font-semibold tracking-tight text-gray-900 text-left lg:text-center">
-        A better way to send money
+      쉽고 빠른 중고기계 거래의 시작, 산업마켓
       </p>
       <p class="mt-4 max-w-2xl text-lg sm:text-xl text-gray-500 lg:mx-auto text-left lg:text-center">
-        Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.
+        중고기계, 공구, 용품 직거래 오픈 플랫폼
       </p>
 
       <div class="mt-10" data-aos="fade-up" data-aos-delay="100">
@@ -105,12 +106,13 @@ include_once(G5_THEME_PATH . '/head.php');
   </div>
 </section>
 
+<!-- 이용 안내 섹션 -->
 <section id="about" class="about bg-gray-100 py-12 overflow-hidden">
   <div class="container mx-auto px-4 sm:px-0" data-aos="fade-up">
     <div class="text-center pb-8">
       <h2 class="text-sm font-extrabold py-1 px-4 m-0 bg-blue-100 text-blue-500 inline-block uppercase rounded-xl">이용 안내</h2>
-      <h3 class="font-semibold text-xl sm:text-2xl mt-4 text-gray-900">Find Out More <span class="text-blue-900">About Us</span></h3>
-      <p class="mt-4 mr-auto mb-0 ml-auto w-full lg:w-1/2 text-lg sm:text-xl text-gray-500">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+      <h3 class="font-semibold text-xl sm:text-2xl mt-4 text-gray-900">우리 지역 중고 기계를 한 눈에!<span class="text-blue-900"></span></h3>
+      <p class="mt-4 mr-auto mb-0 ml-auto w-full lg:w-1/2 text-lg sm:text-xl text-gray-500">터치 몇 번으로 간편하게, 중고설비 거래는 산업마켓</p>
     </div>
     <div class="space-y-10 lg:space-y-0 grid grid-cols-1 lg:grid-cols-2 lg:gap-x-8">
       <div class="" data-aos="fade-right" data-aos-delay="100">
@@ -148,11 +150,12 @@ include_once(G5_THEME_PATH . '/head.php');
   </div>
 </section>
 
+<!-- 앱 다운로드 섹션 --> 
 <section id="new-idea">
   <div class="flex bg-white new-idea">
     <div class="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
       <div data-aos="fade-right" data-aos-delay="100">
-        <h2 class=" text-3xl font-semibold text-gray-900 md:text-4xl">산업마켓 어플 <span class="text-blue-600">다운로드</span></h2>
+        <h2 class=" text-3xl font-semibold text-gray-900 md:text-4xl">산업마켓 <span class="text-blue-600">앱 다운로드</span></h2>
         <p class="mt-2 text-sm text-gray-500 md:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi cum cupiditate ducimus, fugit harum id necessitatibus odio quam quasi, quibusdam rem tempora voluptates. Cumque debitis dignissimos id quam vel!</p>
         <div class="flex justify-center lg:justify-start mt-6">
           <a class="px-4 py-3 bg-gray-900 text-gray-200 text-xs font-semibold rounded hover:bg-gray-800" href="#">삼성폰 Android</a>
@@ -169,6 +172,7 @@ include_once(G5_THEME_PATH . '/head.php');
   </div>
 </section>
 
+<!-- 광고 문의 섹션 -->  
 <section id="testimonials" class="testimonials py-20 relative">
   <div class="container mx-auto px-4 sm:px-0" data-aos="zoom-in">
     <div class="testimonials-slider swiper-container w-full h-80 sm:h-64 md:h-60" data-aos="fade-up" data-aos-delay="100">
@@ -241,6 +245,23 @@ include_once(G5_THEME_PATH . '/head.php');
       <div class="swiper-pagination mt-6"></div>
     </div>
   </div>
+</section>
+
+<!-- 최신글 - 공지사항, 웹진 섹션 -->
+<section class="latest_wr mt-12">
+  <div class="container mx-auto sm: px-4 text-white relative">
+    <h2 class="sound_only">최신글</h2>
+    <div class="latest_top_wr grid grid-cols-1 md:grid-cols-2 gap-4 text-black">
+      <div>
+        <?php echo latest('theme/tail_notice', 'notice', 4, 40);  ?>
+      </div>
+      <div>
+        <?php echo latest('theme/tail_notice', 'webzine', 4, 40); ?>
+      </div>
+    </div>
+  </div>
+  
+  <br>
 </section>
 
 <?php

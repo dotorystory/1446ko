@@ -17,7 +17,7 @@ include_once(G5_THEME_PATH . '/head.php');
     <h2 class="mt-2 mr-0 mb-10 ml-0 text-lg md:text-xl font-base mb-0 md:mb-4">내가 찾는 산업 기계, 설비, 공구 | 간편하고 부담 없는 직거래 장터 | 산업마켓 어플에서 만나보세요.</h2>
     <br>
     <div class="inline-flex items-center">
-      <a href="#about" class="uppercase text-base md:text-lg tracking-wide inline-block py-1.5 px-3 rounded-md transition transition-duration-500 bg-blue-500 hover:bg-blue-400">시작하기</a>
+      <a href="#about" target="_blank" class="uppercase text-base md:text-lg tracking-wide inline-block py-1.5 px-3 rounded-md transition transition-duration-500 bg-blue-500 hover:bg-blue-400">시작하기</a>
       <a href="https://youtu.be/WRHY64qsi5c?si=XZYyq-98OQVfA6b0" class="inline-flex items-center" target="_blank">
         <i class="bi bi-play-circle text-blue-500 text-4xl transition transition-duration-300 leading-0 ml-8 hover:text-gray-300"></i>
         <span class="text-base transition transition-duration-500 ml-2.5 text-gray-200 font-semibold hover:text-gray-300">영상 보기</span>
@@ -26,29 +26,22 @@ include_once(G5_THEME_PATH . '/head.php');
   </div>
 </section>
 
-
 <!-- 서비스 소개 섹션 --> 
 <section id="transactions">
-  <div class="mt-8 mb-10 bg-white" data-aos="fade-up" style="padding-top: 0; margin-top: 0;">
+  <div class="mt-8 mb-10 bg-white" data-aos="fade-up">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
-        <br><br>
-        <!-- <h2 class="text-sm font-extrabold py-1 px-4 m-0 bg-blue-100 text-blue-500 inline-block uppercase rounded-xl">서비스 소개</h2> -->
-        <h2 class="text-sm font-extrabold py-1 px-4 m-0 bg-gray-500 text-gray-100 inline-block uppercase">서비스 소개</h2>
+        <h2 class="text-sm font-extrabold py-1 px-4 m-0 bg-blue-100 text-blue-500 inline-block uppercase rounded-xl">서비스 소개</h2>
       </div>
-      <p class="mt-4 text-3xl sm:text-3xl leading-8 font-medium tracking-tight text-gray-900 text-center lg:text-center">
-      INDUSTRIAL MACHINE MARKET
+      <p class="mt-4 text-xl sm:text-2xl leading-8 font-semibold tracking-tight text-gray-900 text-left lg:text-center">
+      쉽고 빠른 중고기계 거래의 시작, 산업마켓
       </p>
-      <!-- <p class="mt-4 max-w-2xl text-lg sm:text-xl text-gray-500 lg:mx-auto text-left lg:text-center">
+      <p class="mt-4 max-w-2xl text-lg sm:text-xl text-gray-500 lg:mx-auto text-left lg:text-center">
         중고기계, 공구, 용품 직거래 오픈 플랫폼
-      </p> -->
-
-      <br>
-
+      </p>
 
       <div class="mt-10" data-aos="fade-up" data-aos-delay="100">
         <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-
           <div class="relative" data-aos="fade-up" data-aos-delay="100">
             <dt>
               <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
@@ -61,7 +54,7 @@ include_once(G5_THEME_PATH . '/head.php');
               <p class="ml-16 text-lg leading-6 font-semibold text-gray-900">내가 원하는 설비, 어디 없을까?</p>
             </dt>
             <dd class="mt-2 ml-16 text-base text-gray-500">
-              꼭 필요한 기계, 설비, 공구를 앱으로 간편하게! 채팅으로 뚝딱! 산업 기계 직거래 서비스, 산업마켓
+              내 공장에 필요한 기계, 설비, 공구 필요하시죠? 앱으로 간편하게, 채팅으로 뚝딱! 산업 기계 직거래 서비스, 산업마켓
             </dd>
           </div>
 
@@ -77,7 +70,7 @@ include_once(G5_THEME_PATH . '/head.php');
               <p class="ml-16 text-lg leading-6 font-semibold text-gray-900">산업 기계, 설비 잘 팔고 싶다면</p>
             </dt>
             <dd class="mt-2 ml-16 text-base text-gray-500">
-              잠자는 기계, 공구, 용품 아까우셨죠? 글로벌 직거래 장터! 비용 걱정도 No! 이제는? 산업마켓하세요.
+              잠자는 내 설비, 기계, 공구 아까우셨죠? 글로벌 직거래 장터! 비용 걱정도 No! 이제는? 산업마켓하세요.
             </dd>
           </div>
 
@@ -109,60 +102,26 @@ include_once(G5_THEME_PATH . '/head.php');
               <p class="ml-16 text-lg leading-6 font-semibold text-gray-900">버리면 폐기물, 나누면 환경보호</p>
             </dt>
             <dd class="mt-2 ml-16 text-base text-gray-500">
-            이걸 누가 쓰지? 먼지만 쌓여가는 설비, 이제는 빛날 차례! 걱정 말고, 산업마켓에서 나눔해요. 
+            이걸 또 누가 쓰지? 먼지만 쌓여가는 유휴 제품, 이제는 빛날 차례! 걱정 말고, 산업마켓에서 나눔하세요. 
             </dd>
           </div>
         </dl>
-
-      </div>
-      
-
-      <br>
-
-    </div>
-  </div>
-</section>
-
-<!-- 서비스 소개 섹션 2 --> 
-<section id="transactions2">
-  <div class="flex bg-gray-900">
-    <div class="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
-      <div data-aos="fade-right" data-aos-delay="100">
-        <br><br><br>
-        <h2 class=" text-3xl font-medium text-gray-300 md:text-4xl">접속만 해도 돈되는 <span class="text-blue-600">산업마켓</span></h2>
-        <br>
-        <p class="mt-2 text-sm text-gray-500 md:text-base">
-          Buy used industrial machinery, equipment, and tools you need through direct transactions. 
-          Sell your unused idle products and make a profit. Request the industrial products you are looking for at the Industrial Market. 
-          Let's dispose of idle inventory without cost! Sharing for the environment is also possible at the Industrial Market. 
-          Now, download the app for free and trade used industrial products. It's possible at the Industrial Market!</p>
-        <br><br><br>
-        <!-- <div class="flex justify-center lg:justify-start mt-6">
-          <a class="px-4 py-3 bg-gray-900 text-gray-200 text-xs font-semibold rounded hover:bg-gray-800" href="https://play.google.com/store/games?hl=ko&pli=1" target="_blank">삼성폰 Android</a>
-          <a class="mx-4 px-4 py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400" href="https://www.apple.com/kr/app-store/" target="_blank">　애플폰 iOS　</a>
-        </div> -->
-      </div>
-    </div>
-    <!-- <div class="hidden lg:block lg:w-1/2" data-aos="fade-up" data-aos-delay="100" style=" clip-path:polygon(10% 0, 100% 0%, 100% 100%, 0 100%)"> -->
-    <div class="hidden lg:block lg:w-1/2" data-aos="fade-up" data-aos-delay="100">
-      <div class="h-full flex flex-col bg-gray-300 justify-end items-center">
-        <img src="<?php echo G5_THEME_IMG_URL ?>/korean.png" class="w-full max-w-md" alt="Korean image">
       </div>
     </div>
   </div>
 </section>
 
 <!-- 이용 안내 섹션 -->
-<section id="about" class="about bg-white py-12 overflow-hidden">
+<section id="about" class="about bg-gray-100 py-12 overflow-hidden">
   <div class="container mx-auto px-4 sm:px-0" data-aos="fade-up">
     <div class="text-center pb-8">
-      <h2 class="text-sm font-extrabold py-1 px-4 m-0 bg-gray-500 text-gray-100 inline-block uppercase">이용 안내</h2>
-      <h3 class="font-medium text-3xl sm:text-3xl mt-4 text-gray-900"><span class="text-blue-900"></span>ULTRA EASY! ULTRA GOOD!</h3>
-      <p class="mt-4 mr-auto mb-0 ml-auto w-full lg:w-1/2 text-lg sm:text-lg text-gray-400">터치 몇 번으로 간편하게, 산업기계 직거래 어플</p>
+      <h2 class="text-sm font-extrabold py-1 px-4 m-0 bg-blue-100 text-blue-500 inline-block uppercase rounded-xl">이용 안내</h2>
+      <h3 class="font-semibold text-xl sm:text-2xl mt-4 text-gray-900">우리 지역 중고 기계를 한 눈에!<span class="text-blue-900"></span></h3>
+      <p class="mt-4 mr-auto mb-0 ml-auto w-full lg:w-1/2 text-lg sm:text-xl text-gray-500">터치 몇 번으로 간편하게, 중고설비 거래는 산업마켓</p>
     </div>
     <div class="space-y-10 lg:space-y-0 grid grid-cols-1 lg:grid-cols-2 lg:gap-x-8">
       <div class="" data-aos="fade-right" data-aos-delay="100">
-        <img src="<?php echo G5_THEME_IMG_URL ?>/about.png" class="w-full" alt="">
+        <img src="<?php echo G5_THEME_IMG_URL ?>/about.jpg" class="w-full" alt="">
       </div>
       <div class="content pt-4 lg:pt-0 flex flex-col justify-center" data-aos="fade-up" data-aos-delay="100">
         <h3 class="text-lg leading-6 font-medium text-gray-900">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
@@ -198,30 +157,23 @@ include_once(G5_THEME_PATH . '/head.php');
 
 <!-- 앱 다운로드 섹션 --> 
 <section id="new-idea">
-  <div class="flex bg-gray-100 new-idea">
+  <div class="flex bg-white new-idea">
     <div class="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
       <div data-aos="fade-right" data-aos-delay="100">
         <h2 class=" text-3xl font-semibold text-gray-900 md:text-4xl">산업마켓 <span class="text-blue-600">앱 다운로드</span></h2>
         <p class="mt-2 text-sm text-gray-500 md:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi cum cupiditate ducimus, fugit harum id necessitatibus odio quam quasi, quibusdam rem tempora voluptates. Cumque debitis dignissimos id quam vel!</p>
         <div class="flex justify-center lg:justify-start mt-6">
-          <a class="px-4 py-3 bg-gray-900 text-gray-200 text-xs font-semibold rounded hover:bg-gray-800" href="https://play.google.com/store/games?hl=ko&pli=1" target="_blank">삼성폰 Android</a>
-          <a class="mx-4 px-4 py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400" href="https://www.apple.com/kr/app-store/" target="_blank">　애플폰 iOS　</a>
+          <a class="px-4 py-3 bg-gray-900 text-gray-200 text-xs font-semibold rounded hover:bg-gray-800" href="#">삼성폰 Android</a>
+          <a class="mx-4 px-4 py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400" href="#"> 애플폰 iOS </a>
         </div>
       </div>
     </div>
     <!-- <div class="hidden lg:block lg:w-1/2" data-aos="fade-up" data-aos-delay="100" style=" clip-path:polygon(10% 0, 100% 0%, 100% 100%, 0 100%)"> -->
-    <!-- <div class="hidden lg:block lg:w-1/2" data-aos="fade-up" data-aos-delay="100">
+    <div class="hidden lg:block lg:w-1/2" data-aos="fade-up" data-aos-delay="100">
       <div class="h-full object-cover" style="background-image: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80)">
         <div class="h-full bg-black opacity-25"></div>
       </div>
-    </div> -->
-    <div class="hidden lg:block lg:w-1/2 relative overflow-hidden" data-aos="fade-up" data-aos-delay="100">
-      <video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover">
-        <source src="<?php echo G5_THEME_URL ?>/video/future.mp4" type="video/mp4">
-        귀하의 브라우저는 HTML5 비디오를 지원하지 않습니다.
-      </video>
-      <div class="absolute top-0 left-0 w-full h-full bg-black opacity-10"></div>
-  </div>
+    </div>
   </div>
 </section>
 
