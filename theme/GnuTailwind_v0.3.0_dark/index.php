@@ -11,7 +11,7 @@ include_once(G5_THEME_PATH . '/head.php');
 <!-- 히어로 섹션 -->
 <section id="main-top" class="relative w-full flex items-center">
   <div class="container mx-auto sm: px-4 text-white relative text-center" data-aos="zoom-out" data-aos-delay="100" data-aos-duration="1000">
-    <h1 class="m-0 text-2xl md:text-3xl font-extrabold leading-6 md:leading-8 ">세상 모든 중고기계·중고설비, 산업마켓 
+    <h1 class="m-0 text-2xl md:text-4xl font-bold md:font-medium leading-6 md:leading-8 ">세상 모든 중고기계·중고설비, 산업마켓 
       <!-- <span class="text-blue-500">산업마켓</span> -->
     </h1>
     <h2 class="mt-2 mr-0 mb-10 ml-0 text-lg md:text-xl font-base mb-0 md:mb-4">내가 찾는 산업 기계, 설비, 공구 | 간편하고 부담 없는 직거래 장터 | 산업마켓 어플에서 만나보세요.</h2>
@@ -129,9 +129,9 @@ include_once(G5_THEME_PATH . '/head.php');
     <div class="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
       <div data-aos="fade-right" data-aos-delay="100">
         <br><br><br>
-        <h2 class=" text-3xl font-medium text-gray-300 md:text-4xl">접속만 해도 돈되는 <span class="text-blue-600">산업마켓</span></h2>
+        <h2 class=" text-3xl font-medium text-gray-400 md:text-4xl">접속만 해도 돈되는 <span class="text-blue-600">산업마켓</span></h2>
         <br>
-        <p class="mt-2 text-sm text-gray-500 md:text-base">
+        <p class="mt-2 text-sm text-gray-400 md:text-base">
           Buy used industrial machinery, equipment, and tools you need through direct transactions. 
           Sell your unused idle products and make a profit. Request the industrial products you are looking for at the Industrial Market. 
           Let's dispose of idle inventory without cost! Sharing for the environment is also possible at the Industrial Market. 
@@ -165,31 +165,32 @@ include_once(G5_THEME_PATH . '/head.php');
         <img src="<?php echo G5_THEME_IMG_URL ?>/about.png" class="w-full" alt="">
       </div>
       <div class="content pt-4 lg:pt-0 flex flex-col justify-center" data-aos="fade-up" data-aos-delay="100">
-        <h3 class="text-lg leading-6 font-medium text-gray-900">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-        <p class="text-base text-gray-500">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.
-        </p>
+        <h3 class="text-lg leading-6 font-bold text-blue-500">　　산업마켓 앱 설치하고, 채팅으로 직거래하기!</h3>
+        <br>
+        <!-- <p class="text-base text-gray-400">
+          <br>Looking for your industrial equipments?
+          <br>Search on the Industrial Market application.
+        </p> -->
         <ul>
           <li class="flex items-start mb-8 first: mt-8">
-            <i class="bi bi-shop bg-transparent shadow text-3xl p-6 mr-4 text-blue-500 rounded-full"></i>
+            <i class="bi bi-google bg-transparent shadow text-3xl p-6 mr-4 text-blue-500 rounded-full"></i>
             <div>
-              <h5 class="text-lg leading-6 font-medium text-gray-900">Ullamco laboris nisi ut aliquip consequat</h5>
-              <p class="text-base text-gray-500">Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+              <h5 class="text-lg leading-6 font-bold text-gray-900">삼성폰, 갤럭시탭 등 구글 안드로이드 앱</h5>
+              <p class="text-base text-gray-500">For Samsung, Galaxy Tabs, etc., download the application from the Google Android Play Store.</p>
             </div>
           </li>
           <li class="flex items-start mb-8">
-            <i class="bi bi-images bg-transparent shadow text-3xl p-6 mr-4 text-blue-500 rounded-full"></i>
+            <i class="bi bi-tablet-fill bg-transparent shadow text-3xl p-6 mr-4 text-blue-500 rounded-full"></i>
             <div>
-              <h5 class="text-lg text-gray-900 font-medium">Magnam soluta odio exercitationem reprehenderi</h5>
-              <p class="text-base text-gray-500">Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
+              <h5 class="text-lg text-gray-900 font-bold">아이폰, 아이패드 등 iOS 애플스토어 앱</h5>
+              <p class="text-base text-gray-500">For iPhone, iPad, etc., download the industrialmarket application from the iOS Apple Store.</p>
             </div>
           </li>
         </ul>
         <p class="last: mb-0 text-base text-gray-500">
-          Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum
+          <br>　　Looking for your industrial equipments?
+          <br>　　Search on the Industrial Market application.
+          <br>
         </p>
       </div>
     </div>
@@ -201,10 +202,11 @@ include_once(G5_THEME_PATH . '/head.php');
   <div class="flex bg-gray-100 new-idea">
     <div class="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
       <div data-aos="fade-right" data-aos-delay="100">
-        <h2 class=" text-3xl font-semibold text-gray-900 md:text-4xl">산업마켓 <span class="text-blue-600">앱 다운로드</span></h2>
+        <h2 class=" text-3xl font-medium text-gray-900 md:text-4xl">산업마켓 <span class="text-blue-600">앱 다운로드</span></h2>
+        <br>
         <p class="mt-2 text-sm text-gray-500 md:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi cum cupiditate ducimus, fugit harum id necessitatibus odio quam quasi, quibusdam rem tempora voluptates. Cumque debitis dignissimos id quam vel!</p>
         <div class="flex justify-center lg:justify-start mt-6">
-          <a class="px-4 py-3 bg-gray-900 text-gray-200 text-xs font-semibold rounded hover:bg-gray-800" href="https://play.google.com/store/games?hl=ko&pli=1" target="_blank">삼성폰 Android</a>
+          <a class="px-4 py-3 bg-gray-800 text-gray-100 text-xs font-semibold rounded hover:bg-gray-800" href="https://play.google.com/store/games?hl=ko&pli=1" target="_blank">삼성폰 Android</a>
           <a class="mx-4 px-4 py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400" href="https://www.apple.com/kr/app-store/" target="_blank">　애플폰 iOS　</a>
         </div>
       </div>
@@ -217,7 +219,7 @@ include_once(G5_THEME_PATH . '/head.php');
     </div> -->
     <div class="hidden lg:block lg:w-1/2 relative overflow-hidden" data-aos="fade-up" data-aos-delay="100">
       <video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover">
-        <source src="<?php echo G5_THEME_URL ?>/video/future.mp4" type="video/mp4">
+        <source src="<?php echo G5_THEME_URL ?>/assets/video/future.mp4" type="video/mp4">
         귀하의 브라우저는 HTML5 비디오를 지원하지 않습니다.
       </video>
       <div class="absolute top-0 left-0 w-full h-full bg-black opacity-10"></div>
