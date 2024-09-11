@@ -11,7 +11,7 @@ include_once(G5_THEME_PATH . '/head.php');
 <!-- 히어로 섹션 -->
 <section id="main-top" class="relative w-full flex items-center">
   <div class="container mx-auto sm: px-4 text-white relative text-center" data-aos="zoom-out" data-aos-delay="100" data-aos-duration="1000">
-    <h1 class="m-0 text-2xl md:text-4xl font-bold md:font-medium leading-6 md:leading-8 ">세상 모든 중고기계·중고설비, 산업마켓 
+    <h1 class="m-0 text-2xl md:text-4xl font-bold md:font-medium leading-6 md:leading-8 ">세상 모든 중고기계·설비, 산업마켓 
       <!-- <span class="text-blue-500">산업마켓</span> -->
     </h1>
     <h2 class="mt-2 mr-0 mb-10 ml-0 text-lg md:text-xl font-base mb-0 md:mb-4">내가 찾는 산업 기계, 설비, 공구 | 간편하고 부담 없는 직거래 장터 | 산업마켓 어플에서 만나보세요.</h2>
@@ -37,7 +37,7 @@ include_once(G5_THEME_PATH . '/head.php');
         <h2 class="text-sm font-extrabold py-1 px-4 m-0 bg-gray-500 text-gray-100 inline-block uppercase">서비스 소개</h2>
       </div>
       <p class="mt-4 text-3xl sm:text-3xl leading-8 font-medium tracking-tight text-gray-900 text-center lg:text-center">
-      INDUSTRIAL MACHINE MARKET
+      INDUSTRIAL MARKET
       </p>
       <!-- <p class="mt-4 max-w-2xl text-lg sm:text-xl text-gray-500 lg:mx-auto text-left lg:text-center">
         중고기계, 공구, 용품 직거래 오픈 플랫폼
@@ -126,29 +126,32 @@ include_once(G5_THEME_PATH . '/head.php');
 <!-- 서비스 소개 섹션 2 --> 
 <section id="transactions2">
   <div class="flex bg-gray-900">
-    <div class="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
+
+  <div class="flex flex-col lg:flex-row bg-gray-900">
+    <div class="w-full lg:w-1/2 px-8 md:px-12 py-12 flex items-center">
       <div data-aos="fade-right" data-aos-delay="100">
-        <br><br><br>
-        <h2 class=" text-3xl font-medium text-gray-400 md:text-4xl">접속만 해도 돈되는 <span class="text-blue-600">산업마켓</span></h2>
-        <br>
-        <p class="mt-2 text-sm text-gray-400 md:text-base">
+        <h2 class="text-3xl font-medium text-gray-400 md:text-3xl">국내 최초 산업용 중고제품 <span class="text-blue-600">직거래 앱</span></h2>
+        <p class="mt-4 text-sm text-gray-400 md:text-base">
           Buy used industrial machinery, equipment, and tools you need through direct transactions. 
           Sell your unused idle products and make a profit. Request the industrial products you are looking for at the Industrial Market. 
           Let's dispose of idle inventory without cost! Sharing for the environment is also possible at the Industrial Market. 
-          Now, download the app for free and trade used industrial products. It's possible at the Industrial Market!</p>
-        <br><br><br>
+          Now, download the app for free and trade used industrial products. It's possible at the Industrial Market!
+        </p>
         <!-- <div class="flex justify-center lg:justify-start mt-6">
           <a class="px-4 py-3 bg-gray-900 text-gray-200 text-xs font-semibold rounded hover:bg-gray-800" href="https://play.google.com/store/games?hl=ko&pli=1" target="_blank">삼성폰 Android</a>
           <a class="mx-4 px-4 py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400" href="https://www.apple.com/kr/app-store/" target="_blank">　애플폰 iOS　</a>
         </div> -->
       </div>
     </div>
-    <!-- <div class="hidden lg:block lg:w-1/2" data-aos="fade-up" data-aos-delay="100" style=" clip-path:polygon(10% 0, 100% 0%, 100% 100%, 0 100%)"> -->
-    <div class="hidden lg:block lg:w-1/2" data-aos="fade-up" data-aos-delay="100">
-      <div class="h-full flex flex-col bg-gray-300 justify-end items-center">
-        <img src="<?php echo G5_THEME_IMG_URL ?>/korean.png" class="w-full max-w-md" alt="Korean image">
+
+    <div class="w-full lg:w-1/2" data-aos="fade-up" data-aos-delay="100">
+      <div class="h-full bg-gray-300 flex flex-col justify-end items-center py-12 lg:py-0">
+        <img src="<?php echo G5_THEME_IMG_URL ?>/korean.png" class="w-full ml-2 max-w-md" alt="Korean image">
       </div>
     </div>
+
+  </div>
+
   </div>
 </section>
 
@@ -158,14 +161,14 @@ include_once(G5_THEME_PATH . '/head.php');
     <div class="text-center pb-8">
       <h2 class="text-sm font-extrabold py-1 px-4 m-0 bg-gray-500 text-gray-100 inline-block uppercase">이용 안내</h2>
       <h3 class="font-medium text-3xl sm:text-3xl mt-4 text-gray-900"><span class="text-blue-900"></span>ULTRA EASY! ULTRA GOOD!</h3>
-      <p class="mt-4 mr-auto mb-0 ml-auto w-full lg:w-1/2 text-lg sm:text-lg text-gray-400">터치 몇 번으로 간편하게, 산업기계 직거래 어플</p>
+      <p class="mt-4 mr-auto mb-0 ml-auto w-full lg:w-1/2 text-lg sm:text-lg text-gray-400">터치 몇 번으로 쉽게, 무료 설치로 돈되는 앱</p>
     </div>
     <div class="space-y-10 lg:space-y-0 grid grid-cols-1 lg:grid-cols-2 lg:gap-x-8">
       <div class="" data-aos="fade-right" data-aos-delay="100">
         <img src="<?php echo G5_THEME_IMG_URL ?>/about.png" class="w-full" alt="">
       </div>
       <div class="content pt-4 lg:pt-0 flex flex-col justify-center" data-aos="fade-up" data-aos-delay="100">
-        <h3 class="text-lg leading-6 font-bold text-blue-500">　　산업마켓 앱 설치하고, 채팅으로 직거래하기!</h3>
+        <h3 class="text-lg leading-6 font-bold text-blue-500">산업마켓 앱 설치하고, 채팅으로 직거래하기!</h3>
         <br>
         <!-- <p class="text-base text-gray-400">
           <br>Looking for your industrial equipments?
@@ -187,11 +190,26 @@ include_once(G5_THEME_PATH . '/head.php');
             </div>
           </li>
         </ul>
+
         <p class="last: mb-0 text-base text-gray-500">
-          <br>　　Looking for your industrial equipments?
-          <br>　　Search on the Industrial Market application.
+          <br>
+          <a href="<?php echo G5_BBS_URL ?>/faq.php" class="inline-flex items-center hover:text-blue-500">
+            <i class="bi bi-question-circle mr-2"></i>
+            자주하시는 질문
+          </a>
+          <span class="mx-4"></span>
+          <a href="<?php echo G5_BBS_URL ?>/qalist.php" class="inline-flex items-center hover:text-blue-500">
+            <i class="bi bi-chat-dots mr-2"></i>
+            온라인 상담하기
+          </a>
+          <br>
+          <a href="mailto:web@industrialmarket.biz" class="inline-flex items-center hover:text-blue-500">
+            <i class="bi bi-envelope mr-2"></i>
+            Contact to: "web@industrialmarket.biz"
+          </a>
           <br>
         </p>
+
       </div>
     </div>
   </div>
@@ -199,31 +217,49 @@ include_once(G5_THEME_PATH . '/head.php');
 
 <!-- 앱 다운로드 섹션 --> 
 <section id="new-idea">
-  <div class="flex bg-gray-100 new-idea">
-    <div class="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
-      <div data-aos="fade-right" data-aos-delay="100">
-        <h2 class=" text-3xl font-medium text-gray-900 md:text-4xl">산업마켓 <span class="text-blue-600">앱 다운로드</span></h2>
-        <br>
-        <p class="mt-2 text-sm text-gray-500 md:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi cum cupiditate ducimus, fugit harum id necessitatibus odio quam quasi, quibusdam rem tempora voluptates. Cumque debitis dignissimos id quam vel!</p>
-        <div class="flex justify-center lg:justify-start mt-6">
-          <a class="px-4 py-3 bg-gray-800 text-gray-100 text-xs font-semibold rounded hover:bg-gray-800" href="https://play.google.com/store/games?hl=ko&pli=1" target="_blank">삼성폰 Android</a>
-          <a class="mx-4 px-4 py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400" href="https://www.apple.com/kr/app-store/" target="_blank">　애플폰 iOS　</a>
-        </div>
+  <div class="flex bg-gray-100">
+
+  <div class="flex flex-col lg:flex-row">
+
+  <!-- Text Section -->
+  <div class="w-full lg:w-1/2 px-8 md:px-12 py-14 md:py-28 flex items-center lg:h-auto">
+    <div data-aos="fade-right" data-aos-delay="100">
+      <h2 class="text-3xl font-medium text-gray-900 md:text-4xl">산업마켓 <span class="text-blue-600">앱 다운로드</span></h2>
+      <p class="mt-4 text-sm text-gray-500 md:text-base">
+        When you press the Google Play button, the app installation screen will appear. ▷ 
+        When you press the install button on your phone, the installation will be completed automatically. ▷ 
+        Press the Industrial Market icon installed on your phone to use it.
+      </p>
+      <div class="flex justify-center lg:justify-start mt-6">
+        <a class="px-4 py-3 bg-gray-800 text-gray-100 text-xs font-semibold rounded hover:bg-gray-700" href="https://play.google.com/store/games?hl=ko&pli=1" target="_blank">삼성폰 Android</a>
+        <a class="mx-4 px-4 py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400" href="https://www.apple.com/kr/app-store/" target="_blank">　 애플폰 iOS 　</a>
       </div>
     </div>
-    <!-- <div class="hidden lg:block lg:w-1/2" data-aos="fade-up" data-aos-delay="100" style=" clip-path:polygon(10% 0, 100% 0%, 100% 100%, 0 100%)"> -->
-    <!-- <div class="hidden lg:block lg:w-1/2" data-aos="fade-up" data-aos-delay="100">
-      <div class="h-full object-cover" style="background-image: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80)">
-        <div class="h-full bg-black opacity-25"></div>
-      </div>
-    </div> -->
-    <div class="hidden lg:block lg:w-1/2 relative overflow-hidden" data-aos="fade-up" data-aos-delay="100">
-      <video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover">
-        <source src="<?php echo G5_THEME_URL ?>/assets/video/future.mp4" type="video/mp4">
-        귀하의 브라우저는 HTML5 비디오를 지원하지 않습니다.
-      </video>
-      <div class="absolute top-0 left-0 w-full h-full bg-black opacity-10"></div>
   </div>
+
+  <!-- Video Section -->
+  <div class="w-full lg:w-1/2 relative overflow-hidden aspect-w-16 aspect-h-9" style="min-height:300px">
+    <div data-aos="fade-up" data-aos-delay="100" class="absolute top-0 left-0 w-full h-full">
+      <?php
+      $video_url = G5_THEME_URL . "/assets/video/future.mp4";
+      $youtube_id = ""; // WRHY64qsi5c 유튜브 비디오 ID를 여기에 입력하세요.
+
+      if ($youtube_id) {
+        echo '<iframe class="absolute top-0 left-0 w-full h-full" src="https://www.youtube.com/embed/' . $youtube_id . '?autoplay=1&mute=1&loop=1&playlist=' . $youtube_id . '" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+      } else {
+        echo '<video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover">
+                <source src="' . $video_url . '" type="video/mp4">
+                귀하의 브라우저는 HTML5 비디오를 지원하지 않습니다.
+              </video>';
+      }
+      ?>
+      <div class="absolute top-0 left-0 w-full h-full bg-black opacity-10"></div>
+    </div>
+  </div>
+
+</div>
+
+
   </div>
 </section>
 
