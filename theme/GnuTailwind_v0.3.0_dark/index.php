@@ -193,12 +193,12 @@ include_once(G5_THEME_PATH . '/head.php');
 
         <p class="last: mb-0 text-base text-gray-500">
           <br>
-          <a href="<?php echo G5_BBS_URL ?>/faq.php" class="inline-flex items-center hover:text-blue-500">
+          <a href="<?php echo G5_BBS_URL ?>/faq.php?fm_id=2" class="inline-flex items-center hover:text-blue-500">
             <i class="bi bi-question-circle mr-2"></i>
-            자주하시는 질문
+            앱 설치방법 안내
           </a>
           <span class="mx-4"></span>
-          <a href="<?php echo G5_BBS_URL ?>/qalist.php" class="inline-flex items-center hover:text-blue-500">
+          <a href="<?php echo G5_URL ?>/qa" class="inline-flex items-center hover:text-blue-500">
             <i class="bi bi-chat-dots mr-2"></i>
             온라인 상담하기
           </a>
@@ -327,7 +327,7 @@ include_once(G5_THEME_PATH . '/head.php');
               <a href="tel:+82-31-499-8899" class="hover:text-blue-300">+82-31-499-8899</a>
             </h3>
             <h4 class="text-sm text-gray-400 mb-4">
-              <a href="<?php echo G5_BBS_URL ?>/qalist.php" class="hover:text-blue-300">온라인 문의</a>
+              <a href="<?php echo G5_URL ?>/qa" class="hover:text-blue-300">온라인 문의</a>
             </h4>
             <p class="italic text-gray-200 mt-14 sm:mt-3">
               <i class="swiper-button-prev"></i>

@@ -61,8 +61,8 @@ add_stylesheet('<link rel="stylesheet" href="'.$member_skin_url.'/style.css">', 
 				<?php @include_once(get_social_skin_path().'/social_login.skin.php'); // 소셜로그인 사용시 소셜로그인 버튼 ?>
 				<div class="pt-5 text-center text-gray-400 text-xs">
 					<span>
-						Copyright © 2021
-						<a href="#" rel="" target="_blank" title="Ajimon" class="text-green hover:text-indigo-500 ">소유하신 도메인</a>
+						Copyright © 2024
+						<a href="<?php echo G5_URL ?>/" rel="" target="_top" title="Ajimon" class="text-green hover:text-indigo-500 ">산업마켓(주)</a>
 					</span>
 				</div>
 			</div>

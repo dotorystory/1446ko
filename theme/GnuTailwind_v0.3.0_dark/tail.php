@@ -36,9 +36,11 @@ if (G5_IS_MOBILE) {
       </div>
       <div class="w-full sm:w-1/5 flex-1 sm:flex flex-col space-y-4">
         <a href="<?php echo G5_URL ?>/notice" class="opacity-60 w-1/2 sm:w-full inline-flex mt-2 sm:mt-0">공지사항</a>
-        <a href="<?php echo G5_BBS_URL ?>/faq.php" class="opacity-60 w-1/2 sm:w-full">자주하는 질문</a>
-        <a href="#testimonials" class="opacity-60 w-1/2 sm:w-full inline-flex">광고 문의</a>
-        <a href="#" class="opacity-60 w-1/2 sm:w-full">개인정보보호정책</a>
+        <a href="<?php echo G5_URL ?>/webzine" class="opacity-60 w-1/2 sm:w-full">소식·이벤트</a>
+        <a href="<?php echo G5_BBS_URL ?>/faq.php" class="opacity-60 w-1/2 sm:w-full">광고 안내</a>
+        <!-- <a href="#testimonials" class="opacity-60 w-1/2 sm:w-full inline-flex">광고 안내</a> -->
+        <a href="<?php echo G5_URL ?>/qa" class="opacity-60 w-1/2 sm:w-full inline-flex">온라인 상담</a>
+        <!-- <a href="#" class="opacity-60 w-1/2 sm:w-full">개인정보보호정책</a> -->
       </div>
       <div class="w-full sm:w-1/5 pt-6 flex items-end mb-1">
         <div class="flex flex-row space-x-4">
