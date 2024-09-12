@@ -35,6 +35,16 @@ header("Pragma: no-cache"); // HTTP/1.0
 <html lang="ko" class="light">
 
 <head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WTDM063JWN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WTDM063JWN');
+</script>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark" />
@@ -43,6 +53,15 @@ header("Pragma: no-cache"); // HTTP/1.0
     echo $config['cf_add_meta'] . PHP_EOL;
   ?>
   <title><?php echo $g5_head_title; ?></title>
+
+  <!-- 파비콘 설정 -->
+  <link rel="shortcut icon" href="<?php echo G5_THEME_IMG_URL; ?>/fav/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="<?php echo G5_THEME_IMG_URL; ?>/fav/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="<?php echo G5_THEME_IMG_URL; ?>/fav/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="<?php echo G5_THEME_IMG_URL; ?>/fav/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="<?php echo G5_THEME_IMG_URL; ?>/fav/favicon-16x16.png">
+  <link rel="manifest" href="<?php echo G5_THEME_URL; ?>/manifest.json">
+
   <link rel="stylesheet" href="<?php echo run_replace('head_css_url', G5_THEME_CSS_URL . '/' . (G5_IS_MOBILE ? 'mobile' : 'default') . '.css?ver=' . G5_CSS_VER, G5_THEME_URL); ?>">
 
   <!-- Tailwind CSS -->
