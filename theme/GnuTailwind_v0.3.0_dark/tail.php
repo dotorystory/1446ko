@@ -26,19 +26,19 @@ if (G5_IS_MOBILE) {
     <div class="w-full pt-12 flex flex-col sm:flex-row space-y-2  justify-start">
       <div class="w-full sm:w-2/5 pr-6 flex flex-col space-y-4">
         <img src="<?php echo G5_THEME_IMG_URL ?>/ft_logo.png" class="w-1/3">
-        <p class="opacity-60">경기도 시흥시 배곧동 OO0번길 0<br>서영글로벌빌딩 4층</p>
+        <p class="opacity-60">경기도 시흥시 배곧동 204 <br>서영베니스스퀘어 446호</p>
       </div>
       <div class="w-full sm:w-1/5 flex-1 sm:flex flex-col space-y-4">
+        <a href="/" class="opacity-60 w-1/2">Home</a>
         <a href="<?php echo G5_URL ?>/#transactions" class="opacity-60 w-1/2 inline-flex">서비스 소개</a>
         <a href="<?php echo G5_URL ?>/#about" class="opacity-60 w-1/2">이용 안내</a>
         <a href="<?php echo G5_URL ?>/#new-idea" class="opacity-60 w-1/2 inline-flex">앱 다운로드</a>
-        <a href="#" class="opacity-60 w-1/2">개인정보보호</a>
       </div>
       <div class="w-full sm:w-1/5 flex-1 sm:flex flex-col space-y-4">
         <a href="<?php echo G5_URL ?>/notice" class="opacity-60 w-1/2 sm:w-full inline-flex mt-2 sm:mt-0">공지사항</a>
         <a href="<?php echo G5_BBS_URL ?>/faq.php" class="opacity-60 w-1/2 sm:w-full">자주하는 질문</a>
         <a href="#testimonials" class="opacity-60 w-1/2 sm:w-full inline-flex">광고 문의</a>
-        <a href="#" class="opacity-60 w-1/2 sm:w-full">약관</a>
+        <a href="#" class="opacity-60 w-1/2 sm:w-full">개인정보보호정책</a>
       </div>
       <div class="w-full sm:w-1/5 pt-6 flex items-end mb-1">
         <div class="flex flex-row space-x-4">

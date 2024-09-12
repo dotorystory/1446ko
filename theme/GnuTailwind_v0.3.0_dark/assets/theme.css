@@ -174,12 +174,12 @@ nav > h2 {
   background-blend-mode: multiply;
   background-color: rgba(0, 0, 0, 0.5); /* 어두운 색상의 배경 */
 }
-/* #main-top {
-  margin-top: -35px;
-  background: url("../img/main_01.jpg") top left;
-  background-size: cover;
-  height: 80vh;
-} */
+/*#main-top {*/
+/*  margin-top: -35px;*/
+/*  background: url("../img/main_01.jpg") top left;*/
+/*  background-size: cover;*/
+/*  height: 80vh;*/
+/*}*/
 @media (min-width: 1024px) {
   #main-top {
     background-attachment: fixed;

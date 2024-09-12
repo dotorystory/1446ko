@@ -17,9 +17,9 @@ include_once(G5_THEME_PATH . '/head.php');
     <h2 class="mt-2 mr-0 mb-10 ml-0 text-lg md:text-xl font-base mb-0 md:mb-4">내가 찾는 산업 기계, 설비, 공구 | 간편하고 부담 없는 직거래 장터 | 산업마켓 어플에서 만나보세요.</h2>
     <br>
     <div class="inline-flex items-center">
-      <a href="#about" class="uppercase text-base md:text-lg tracking-wide inline-block py-1.5 px-3 rounded-md transition transition-duration-500 bg-blue-500 hover:bg-blue-400">시작하기</a>
+      <a href="#about" class="uppercase text-base md:text-lg tracking-wide inline-block py-1.5 px-3 rounded-md transition transition-duration-500 bg-blue-700 hover:bg-blue-400">시작하기</a>
       <a href="https://youtu.be/WRHY64qsi5c?si=XZYyq-98OQVfA6b0" class="inline-flex items-center" target="_blank">
-        <i class="bi bi-play-circle text-blue-500 text-4xl transition transition-duration-300 leading-0 ml-8 hover:text-gray-300"></i>
+        <i class="bi bi-play-circle text-blue-700 text-4xl transition transition-duration-300 leading-0 ml-8 hover:text-gray-300"></i>
         <span class="text-base transition transition-duration-500 ml-2.5 text-gray-200 font-semibold hover:text-gray-300">영상 보기</span>
       </a>
     </div>
@@ -51,7 +51,7 @@ include_once(G5_THEME_PATH . '/head.php');
 
           <div class="relative" data-aos="fade-up" data-aos-delay="100">
             <dt>
-              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-700 text-white">
                 <!-- Heroicon name: outline/globe-alt -->
                 <!-- <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
@@ -67,7 +67,7 @@ include_once(G5_THEME_PATH . '/head.php');
 
           <div class="relative" data-aos="fade-up" data-aos-delay="100">
             <dt>
-              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-700 text-white">
                 <!-- Heroicon name: outline/scale -->
                 <!-- <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
@@ -83,7 +83,7 @@ include_once(G5_THEME_PATH . '/head.php');
 
           <div class="relative" data-aos="fade-up" data-aos-delay="100">
             <dt>
-              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-700 text-white">
                 <!-- Heroicon name: outline/lightning-bolt -->
                 <!-- <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -99,7 +99,7 @@ include_once(G5_THEME_PATH . '/head.php');
 
           <div class="relative" data-aos="fade-up" data-aos-delay="100">
             <dt>
-              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-700 text-white">
                 <!-- Heroicon name: outline/annotation -->
                 <!-- <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
@@ -128,7 +128,7 @@ include_once(G5_THEME_PATH . '/head.php');
   <div class="flex bg-gray-900">
 
   <div class="flex flex-col lg:flex-row bg-gray-900">
-    <div class="w-full lg:w-1/2 px-8 md:px-12 py-12 flex items-center">
+    <div class="w-full lg:w-1/2 px-8 md:px-12 py-16 flex items-center" style="background: #202020;">
       <div data-aos="fade-right" data-aos-delay="100">
         <h2 class="text-3xl font-medium text-gray-400 md:text-3xl">국내 최초 산업용 중고제품 <span class="text-blue-600">직거래 앱</span></h2>
         <p class="mt-4 text-sm text-gray-400 md:text-base">
@@ -176,14 +176,14 @@ include_once(G5_THEME_PATH . '/head.php');
         </p> -->
         <ul>
           <li class="flex items-start mb-8 first: mt-8">
-            <i class="bi bi-google bg-transparent shadow text-3xl p-6 mr-4 text-blue-500 rounded-full"></i>
+            <i class="bi bi-google bg-transparent shadow text-3xl p-6 mr-4 text-blue-700 rounded-full"></i>
             <div>
               <h5 class="text-lg leading-6 font-bold text-gray-900">삼성폰, 갤럭시탭 등 구글 안드로이드 앱</h5>
               <p class="text-base text-gray-500">For Samsung, Galaxy Tabs, etc., download the application from the Google Android Play Store.</p>
             </div>
           </li>
           <li class="flex items-start mb-8">
-            <i class="bi bi-tablet-fill bg-transparent shadow text-3xl p-6 mr-4 text-blue-500 rounded-full"></i>
+            <i class="bi bi-tablet-fill bg-transparent shadow text-3xl p-6 mr-4 text-blue-700 rounded-full"></i>
             <div>
               <h5 class="text-lg text-gray-900 font-bold">아이폰, 아이패드 등 iOS 애플스토어 앱</h5>
               <p class="text-base text-gray-500">For iPhone, iPad, etc., download the industrialmarket application from the iOS Apple Store.</p>
@@ -222,7 +222,7 @@ include_once(G5_THEME_PATH . '/head.php');
   <div class="flex flex-col lg:flex-row">
 
   <!-- Text Section -->
-  <div class="w-full lg:w-1/2 px-8 md:px-12 py-14 md:py-28 flex items-center lg:h-auto">
+  <div class="w-full lg:w-1/2 px-8 md:px-12 py-20 md:py-40 flex items-center lg:h-auto">
     <div data-aos="fade-right" data-aos-delay="100">
       <h2 class="text-3xl font-medium text-gray-900 md:text-4xl">산업마켓 <span class="text-blue-600">앱 다운로드</span></h2>
       <p class="mt-4 text-sm text-gray-500 md:text-base">
@@ -231,8 +231,8 @@ include_once(G5_THEME_PATH . '/head.php');
         Press the Industrial Market icon installed on your phone to use it.
       </p>
       <div class="flex justify-center lg:justify-start mt-6">
-        <a class="px-4 py-3 bg-gray-800 text-gray-100 text-xs font-semibold rounded hover:bg-gray-700" href="https://play.google.com/store/games?hl=ko&pli=1" target="_blank">삼성폰 Android</a>
-        <a class="mx-4 px-4 py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400" href="https://www.apple.com/kr/app-store/" target="_blank">　 애플폰 iOS 　</a>
+        <a class="px-4 py-3 bg-gray-800 text-gray-100 text-xs font-semibold rounded hover:bg-gray-700" href="https://play.google.com/store/apps/details?id=biz.industrialmarket.aos" target="_blank">삼성폰 Android</a>
+        <a class="mx-4 px-4 py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400" href="https://apps.apple.com/kr/app/%EC%82%B0%EC%97%85%EB%A7%88%EC%BC%93/id6544796812" target="_blank">　 애플폰 iOS 　</a>
       </div>
     </div>
   </div>
@@ -241,7 +241,7 @@ include_once(G5_THEME_PATH . '/head.php');
   <div class="w-full lg:w-1/2 relative overflow-hidden aspect-w-16 aspect-h-9" style="min-height:300px">
     <div data-aos="fade-up" data-aos-delay="100" class="absolute top-0 left-0 w-full h-full">
       <?php
-      $video_url = G5_THEME_URL . "/assets/video/future.mp4";
+      $video_url = G5_THEME_URL . "/assets/video/ad.mp4";
       $youtube_id = ""; // WRHY64qsi5c 유튜브 비디오 ID를 여기에 입력하세요.
 
       if ($youtube_id) {
@@ -270,12 +270,12 @@ include_once(G5_THEME_PATH . '/head.php');
       <div class="swiper-wrapper">
         <div class="swiper-slide text-center text-base">
           <div class="testimonial-item text-center text-white">
-            <img src="<?php echo G5_THEME_IMG_URL ?>/testimonials/testimonials-1.jpg" class="testimonial-img w-20 rounded-full border-4 border-gray-300 mx-auto" alt="">
-            <h3 class="text-lg font-semibold mt-2 text-white">Saul Goodman</h3>
-            <h4 class="text-sm text-gray-400 mb-4">Ceo &amp; Founder</h4>
-            <p class="italic text-gray-400 mt-14 sm:mt-3">
+            <img src="<?php echo G5_THEME_IMG_URL ?>/testimonials/ad-touch.jpg" class="testimonial-img w-20 rounded-full border-4 border-gray-300 mx-auto" alt="">
+            <h3 class="text-3xl font-semibold mt-2 text-white">80,000건+</h3>
+            <h4 class="text-sm text-gray-400 mb-4">앱 다운로드</h4>
+            <p class="italic text-gray-200 mt-14 sm:mt-3">
               <i class="swiper-button-prev"></i>
-              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+              쉽고 빠른, 국내 최초 중고산업기계 직거래 앱 
               <i class="swiper-button-next"></i>
             </p>
           </div>
@@ -283,12 +283,12 @@ include_once(G5_THEME_PATH . '/head.php');
 
         <div class="swiper-slide text-center text-base">
           <div class="testimonial-item text-center text-white">
-            <img src="<?php echo G5_THEME_IMG_URL ?>/testimonials/testimonials-2.jpg" class="testimonial-img w-20 rounded-full border-4 border-gray-300 mx-auto" alt="">
-            <h3 class="text-lg font-semibold mt-2 text-white">Sara Wilsson</h3>
-            <h4 class="text-sm text-gray-400 mb-4">Designer</h4>
-            <p class="italic text-gray-400 mt-14 sm:mt-3">
+            <img src="<?php echo G5_THEME_IMG_URL ?>/testimonials/ad-peaple.jpg" class="testimonial-img w-20 rounded-full border-4 border-gray-300 mx-auto" alt="">
+            <h3 class="text-3xl font-semibold mt-2 text-white">550,000명+</h3>
+            <h4 class="text-sm text-gray-400 mb-4">월 방문자수</h4>
+            <p class="italic text-gray-200 mt-14 sm:mt-3">
               <i class="swiper-button-prev"></i>
-              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+              산업계 실제 이용자 기반의 돈되는 중고 장터 
               <i class="swiper-button-next"></i>
             </p>
           </div>
@@ -296,12 +296,12 @@ include_once(G5_THEME_PATH . '/head.php');
 
         <div class="swiper-slide">
           <div class="testimonial-item text-center text-white">
-            <img src="<?php echo G5_THEME_IMG_URL ?>/testimonials/testimonials-3.jpg" class="testimonial-img w-20 rounded-full border-4 border-gray-300 mx-auto" alt="">
-            <h3 class="text-lg font-semibold mt-2 text-white">Jena Karlis</h3>
-            <h4 class="text-sm text-gray-400 mb-4">Store Owner</h4>
-            <p class="italic text-gray-400 mt-14 sm:mt-3">
+            <img src="<?php echo G5_THEME_IMG_URL ?>/testimonials/ad-time.jpg" class="testimonial-img w-20 rounded-full border-4 border-gray-300 mx-auto" alt="">
+            <h3 class="text-3xl font-semibold mt-2 text-white">18,000초+</h3>
+            <h4 class="text-sm text-gray-400 mb-4">일 사용시간</h4>
+            <p class="italic text-gray-200 mt-14 sm:mt-3">
               <i class="swiper-button-prev"></i>
-              Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+              이용자 하루 평균 체류 시간으로 검증된 서비스 
               <i class="swiper-button-next"></i>
             </p>
           </div>
@@ -309,12 +309,12 @@ include_once(G5_THEME_PATH . '/head.php');
 
         <div class="swiper-slide">
           <div class="testimonial-item text-center text-white">
-            <img src="<?php echo G5_THEME_IMG_URL ?>/testimonials/testimonials-4.jpg" class="testimonial-img w-20 rounded-full border-4 border-gray-300 mx-auto" alt="">
-            <h3 class="text-lg font-semibold  mt-2 text-white">Matt Brandon</h3>
-            <h4 class="text-sm text-gray-400 mb-4">Freelancer</h4>
-            <p class="italic text-gray-400 mt-14 sm:mt-3">
+            <img src="<?php echo G5_THEME_IMG_URL ?>/testimonials/ad-success.jpg" class="testimonial-img w-20 rounded-full border-4 border-gray-300 mx-auto" alt="">
+            <h3 class="text-3xl font-semibold  mt-2 text-white">★★★★★</h3>
+            <h4 class="text-sm text-gray-400 mb-4">고객 만족도</h4>
+            <p class="italic text-gray-200 mt-14 sm:mt-3">
               <i class="swiper-button-prev"></i>
-              Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+              판매와 매출 증대로 이어지는, 돈 되는 광고
               <i class="swiper-button-next"></i>
             </p>
           </div>
@@ -322,19 +322,27 @@ include_once(G5_THEME_PATH . '/head.php');
 
         <div class="swiper-slide">
           <div class="testimonial-item text-center text-white">
-            <img src="<?php echo G5_THEME_IMG_URL ?>/testimonials/testimonials-5.jpg" class="testimonial-img w-20 rounded-full border-4 border-gray-300 mx-auto" alt="">
-            <h3 class="text-lg font-semibold mt-2 text-white">John Larson</h3>
-            <h4 class="text-sm text-gray-400 mb-4">Entrepreneur</h4>
-            <p class="italic text-gray-400 mt-14 sm:mt-3">
+            <img src="<?php echo G5_THEME_IMG_URL ?>/testimonials/ad-consult.jpg" class="testimonial-img w-20 rounded-full border-4 border-gray-300 mx-auto" alt="">
+            <h3 class="text-3xl font-semibold mt-2 text-white">
+              <a href="tel:+82-31-499-8899" class="hover:text-blue-300">+82-31-499-8899</a>
+            </h3>
+            <h4 class="text-sm text-gray-400 mb-4">
+              <a href="<?php echo G5_BBS_URL ?>/qalist.php" class="hover:text-blue-300">온라인 문의</a>
+            </h4>
+            <p class="italic text-gray-200 mt-14 sm:mt-3">
               <i class="swiper-button-prev"></i>
-              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+              <a href="<?php echo G5_BBS_URL ?>/faq.php" class="hover:text-blue-300">
+                산업마켓 광고가 궁금하시면 이곳을 클릭하세요.
+              </a>
               <i class="swiper-button-next"></i>
             </p>
           </div>
         </div><!-- End testimonial item -->
       </div>
+
       <div class="swiper-pagination mt-6"></div>
     </div>
+
   </div>
 </section>
 

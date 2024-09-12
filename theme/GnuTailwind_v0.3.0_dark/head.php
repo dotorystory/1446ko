@@ -134,8 +134,8 @@ document.addEventListener('DOMContentLoaded', function() {
             <span style="font-size: 1em;">한국어</span>
           </a>
           <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-            <li><a class="dropdown-item" href="?lang=ja">한국어</a></li>
-            <li><a class="dropdown-item" href="https://google.com">English</a></li>
+            <li><a class="dropdown-item" href="?lang=ko">한국어</a></li>
+            <li><a class="dropdown-item" href="?lang=en">English</a></li>
             <li><a class="dropdown-item" href="?lang=ja">日本語</a></li>
             <!-- <li><a class="dropdown-item" href="?lang=ko">한국어</a></li>
             <li><a class="dropdown-item" href="?lang=en">English</a></li>
@@ -249,7 +249,7 @@ document.addEventListener('DOMContentLoaded', function() {
                   <div x-show="open" x-cloak x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute right-0 w-full mt-2 origin-top-right rounded-md shadow-lg lg:w-48">
                     <div class="dropdownItem px-2 py-2 rounded-md shadow relative z-50">
                       <a class="block px-4 py-1 mb-0.5 rounded-lg hover:text-black focus:text-blxk hover:bg-indigo-200 focus:bg-indigo-200 focus:outline-none focus:shadow-outline" href="<?php echo G5_URL ?>/notice" target="_<?php echo $row2['me_target']; ?>">공지사항</a>
-                      <a class="block px-4 py-1 mb-0.5 rounded-lg hover:text-black focus:text-blxk hover:bg-indigo-200 focus:bg-indigo-200 focus:outline-none focus:shadow-outline" href="<?php echo G5_URL ?>/webzine" target="_<?php echo $row2['me_target']; ?>">Webzine</a>
+                      <a class="block px-4 py-1 mb-0.5 rounded-lg hover:text-black focus:text-blxk hover:bg-indigo-200 focus:bg-indigo-200 focus:outline-none focus:shadow-outline" href="<?php echo G5_URL ?>/webzine" target="_<?php echo $row2['me_target']; ?>">소식·이벤트</a>
                       <a class="block px-4 py-1 mb-0.5 rounded-lg hover:text-black focus:text-blxk hover:bg-indigo-200 focus:bg-indigo-200 focus:outline-none focus:shadow-outline" href="<?php echo G5_BBS_URL ?>/faq.php" target="_<?php echo $row2['me_target']; ?>">FAQ</a>
                       <!-- <a class="block px-4 py-1 mb-0.5 rounded-lg hover:text-black focus:text-blxk hover:bg-indigo-200 focus:bg-indigo-200 focus:outline-none focus:shadow-outline" href="<?php echo G5_BBS_URL ?>/new.php" target="_<?php echo $row2['me_target']; ?>">새글</a> -->
                       <a class="block px-4 py-1 mb-0.5 rounded-lg hover:text-black focus:text-blxk hover:bg-indigo-200 focus:bg-indigo-200 focus:outline-none focus:shadow-outline" href="<?php echo G5_BBS_URL ?>/current_connect.php" target="_<?php echo $row2['me_target']; ?>">현재접속자 수<?php echo connect('theme/basic'); ?></a>
